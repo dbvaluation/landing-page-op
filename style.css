@@ -140,6 +140,66 @@ input:hover {
     padding-top: 2%;
 }
 
+
+/*QUOTE SECTION*/
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-bottom: 5%;
+}
+
+.quote-wrapper h2 {
+    text-align: center;
+    padding-top: 35px;
+    font-size: 36px;
+}
+
+.quote-section {
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-section h4 {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: end;
+}
+
+.quote-section:nth-of-type(1) {
+    border-bottom: 2px solid black;
+    padding-bottom: 5%;
+}
+
+.quote-section:nth-of-type(2) {
+    border-bottom: 2px solid black;
+    padding-bottom: 5%;
+}
+
+.quote-section img {
+    width: 200px;
+    border: none;
+    border-radius: 50%;
+}
+
+.quote-section p {
+    width: 600px;
+}
+
+
+/**/
+
 .card {
     flex: 0 0 200px;
     margin: 10px;
@@ -164,81 +224,6 @@ input:hover {
     cursor: pointer;
     opacity: 95%;
     color: black;
-}
-
-.quote-section {
-    padding-top: 7%;
-    padding-bottom: 7%;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-    align-items: center;
-}
-
-.quote-section:nth-of-type(2) p {
-    display: flex;
-    justify-content: start;
-}
-
-.quote-section:nth-of-type(2) h4 {
-    padding: 0px;
-    margin-top: 1%;
-}
-
-.quote-img:hover {
-    cursor: pointer;
-    opacity: 95%;
-}
-
-.quote-section:nth-of-type(2) {
-    border-top: 1px solid black;
-}
-
-.quote-section:nth-of-type(3) {
-    border-top: 1px solid black;
-}
-
-.quote-section p:hover {
-    cursor: pointer;
-    color: rgb(12, 12, 12);
-}
-
-.quote-wrapper h2 {
-    background-color: #E5E7EB;
-    text-align: center;
-    padding-top: 3%;
-    font-size: 56px;
-}
-
-.quote-section img {
-    width: 270px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.quote-section h4 {
-    display: flex;
-    justify-content: center;
-    font-style: normal;
-    padding-top: 1%;
-    padding-left: 49%;
-}
-
-.quote-section p {
-    display: flex;
-    justify-content: center;
-}
-
-.quote-section:nth-of-type(3) p {
-    margin-left: 35%;
-    width: 60%;
-}
-
-.quote-section:nth-of-type(3) img {
-    margin-left: 90%;
 }
 
 .call-to-action-section {
